@@ -4,6 +4,7 @@ import App from './App.tsx'
 import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
+// @ts-ignore
 async function getIsLoggedIn() {
   return JSON.parse(localStorage.getItem("isLoggedIn") || "false")
 }
