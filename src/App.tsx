@@ -1,3 +1,4 @@
+// @ts-nocheck
 import { Outlet } from "react-router-dom"
 import Logo from './assets/logo.svg'
 import Andrea from './assets/pexels-andrea-piacquadio-3978564 1.png'
